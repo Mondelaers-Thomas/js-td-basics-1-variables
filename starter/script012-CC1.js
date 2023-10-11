@@ -19,5 +19,25 @@ Mark est plus élevé que celui de John ? true").
 
 BONNE CHANCE 😀
 */
+//-- Initialisation de la taille et poids de John et Mark :
+const poidsJohn = prompt("Quel est le poids(en kg) de John");
+const tailleJohn = prompt("Quel est la taille(en mètre) de John");
+const poidsMark = prompt("Quel est le poids(en kg) de Mark");
+const tailleMark = prompt("Quel est la taille(en mètre) de Mark");
+//-- Calcul du BMI de John et Mark :
+const bmiJohn = poidsJohn / (tailleJohn*tailleJohn);
+const bmiMark = poidsMark / (tailleMark*tailleMark);
+console.log(bmiJohn, bmiMark);
+
+if(bmiMark < bmiJohn){
+    console.log(`Le BMI de Mark (${bmiMark}) est inférieur à celui de John (${bmiJohn})`);
+}
+else if(bmiJohn === bmiMark){
+        console.log(`Le BMI de Mark (${bmiMark}) est égal à celui de John (${bmiJohn})`);
+} else {
+    console.log(`Le BMI de Mark (${bmiMark}) est supérieur à celui de John (${bmiJohn})`);
+}
+
+
 
 

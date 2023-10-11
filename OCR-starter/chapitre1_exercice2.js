@@ -8,4 +8,9 @@ Affichez dans la console les opérations de base avec les nombres 6 et 3 :
 - leur modulo
 Avant d'exécuter le code, devinez à chaque fois le résultat de l'opération
 */
+console.log(6+3);
+console.log(6-3);
+console.log(6*3);
+console.log(6/3);
+console.log(6%3);
 
